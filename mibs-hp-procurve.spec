@@ -23,6 +23,8 @@ MIBs for HP ProCurve Family Hardware.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/snmp/mibs
 
+rm -f H2R07604c.mib
+
 for file in *.mib; do
 	b=$(basename "$file" .mib)
 	install "$file" $RPM_BUILD_ROOT%{_datadir}/snmp/mibs/mib-${b}.txt
