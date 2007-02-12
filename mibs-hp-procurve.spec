@@ -1,5 +1,5 @@
 Summary:	MIBs for HP ProCurve
-Summary(pl):	MIB-y dla HP ProCurve
+Summary(pl.UTF-8):   MIB-y dla HP ProCurve
 Name:		net-snmp-mibs-hp-procurve
 Version:	0.Feb.2005
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MIBs for HP ProCurve Family Hardware.
 
-%description -l pl
-MIB-y dla sprzêtu z rodziny HP ProCurve.
+%description -l pl.UTF-8
+MIB-y dla sprzÄ™tu z rodziny HP ProCurve.
 
 %prep
 %setup -q -c
