@@ -1,5 +1,5 @@
 Summary:	MIBs for HP ProCurve
-Summary(pl.UTF-8):   MIB-y dla HP ProCurve
+Summary(pl.UTF-8):	MIB-y dla HP ProCurve
 Name:		net-snmp-mibs-hp-procurve
 Version:	0.Feb.2005
 Release:	1
